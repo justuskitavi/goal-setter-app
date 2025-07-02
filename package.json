@@ -1,0 +1,27 @@
+{
+  "name": "goals",
+  "version": "1.0.0",
+  "description": "Goalsetter app",
+  "homepage": "https://github.com/justuskitavi/goal-setter-app#readme",
+  "bugs": {
+    "url": "https://github.com/justuskitavi/goal-setter-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justuskitavi/goal-setter-app.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "colours": "^0.6.0-2",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  }
+}
